@@ -1,0 +1,54 @@
+/* coding css bagian header */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  height: 50px;
+  margin: 15px 0;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-family: arial;
+  font-size: 20px;
+}
+
+/* coding css bagian main */
+main {
+  background-color: silver;
+}
+
+div.content h1, p {
+  padding: 20px 10px;
+}
+
+p {
+  column-width: 300px;
+  text-align: justify;
+  column-rule: 2px solid black;
+  column-gap: 20px;
+}
+
+/* coding css bagian footer */
+footer.footer {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+
+footer.footer h2 {
+  color: white;
+  text-align: center;
+}
